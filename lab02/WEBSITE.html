@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <!-- Main Page -->
+  <section id="main-page">
+    <h1>Welcome to My Website</h1>
+    <img src="https://media.licdn.com/dms/image/D5603AQFWudCfmnXFEA/profile-displayphoto-shrink_800_800/0/1675672058852?e=1692835200&v=beta&t=3kEfJsjrg75uCvRgxSgJNk0zVzhcXV-EAFzYCEJTsHM" alt="Profile Photo">
+    <p>
+      Hello, I'm Sandeep Vanaparthi, a Masters student in Computer Science at UAb. I have over a year of experience as a Java developer at ADP, where I honed my skills and contributed to software development projects. Apart from my academic and professional pursuits, I'm a Level 2 certified motorcycle racer, having participated in prestigious competitions in my home country. With a strong technical background and a competitive spirit, I aim to make significant contributions in the field of computer science.
+    </p>
+  </section>
+
+  <!-- Main Menu -->
+  <nav id="main-menu">
+    <ul>
+      <li><a href="#main-page">Home</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact-me">Contact Me</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+    </ul>
+  </nav>
+
+  <!-- Resume -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <h4>Skills</h4>
+    <ul>
+      <li>Java</li>
+      <li>Python</li>
+      <li>MySQL</li>
+      <li>Oracle</li>
+      <li>JSP</li>
+      <li>Servlets</li>
+      <li>XML</li>
+      <li>JDBC</li>
+    </ul>
+    
+    <h4>Education</h4>
+    <ul>
+      <li>Masters: Computer Science - University of Alabama at Birmingham</li>
+      <li>Bachelor of Technology: Computer Science and Engineering - Mahatma Gandhi Institute of Technology, Hyderabad</li>
+      <li>Diploma: Computer Engineering - SAMSKRUTI COLLEGE OF POLYTECHNIC, Hyderabad</li>
+      <li>Secondary School Certificate - Krishnaveni Talent School, Hyderabad</li>
+    </ul>
+  </section>
+
+  <!-- Contact Me -->
+  <section id="contact-me">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="thankyou.html" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Submit">
+      </form>
+      <div class="social-media">
+        <a href="https://instagram.com/sandeep_vanaparthi46?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=100006159497736&mibextid=LQQJ4d">Facebook</a>
+        <a href="https://www.linkedin.com/in/sandeepvanaparthi46">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="project">
+      <h4>Aadhaar-based Online Voting System</h4>
+      <p>
+        This project is very useful for conducting elections online, providing accuracy and security.
+      </p>
+      <!-- Add more project details, code snippets, screenshots, etc. -->
+    </div>
+
+    <div class="project">
+      <h4>Image Plagiarism Detection using Compressed Images</h4>
+      <p>
+        Plagiarism is the practice of copying someone else’s work or ideas and passing them off as one’s own original work. This project focuses on detecting differences between images using image subtraction.
+      </p>
+      <!-- Add more project details, code snippets, screenshots, etc. -->
+    </div>
+  </section>
+</body>
+</html>
