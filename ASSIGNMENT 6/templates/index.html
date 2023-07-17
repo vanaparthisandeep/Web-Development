@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Password Verifier</h1>
+<h4>Welcome to Password Check</h4>
+<h4>Let's see if your Password is secure!</h4>
+<h4>Fill out the form below with a User Name and password that has these restraints</h4>
+<h4>Must have an upper case letter somewhere.</h4>
+<h4>Must have a lower case letter somewhere.</h4>
+<h4> Must have a number at the end </h4>
+<form method="POST" action="{{ url_for('index') }}">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='static/style.css') }}">
+{% endblock %}
