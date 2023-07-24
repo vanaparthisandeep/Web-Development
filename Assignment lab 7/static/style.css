@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d8d8d8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e9e6e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #125aa8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input {
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 2px solid #5b5858;
+    border-radius: 6px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #166bc6;
+    color: #eeebeb;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #03386f;
+}
+
+.messages {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.messages li {
+    color: #f0162c;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.messages li.danger {
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.secret-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e7e3e3;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.secret-heading {
+    text-align: center;
+    color: #066ede;
+    font-size: 24px;
+}
+
+.secret-content {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.thankyou-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #dedcdc;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.thankyou-heading {
+    text-align: center;
+    color: #056ede;
+    font-size: 24px;
+}
