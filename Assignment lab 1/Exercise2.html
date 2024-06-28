@@ -1,0 +1,56 @@
+<!doctype html>
+<html >
+    <head>
+        <style>
+            img{
+                width: 250px;
+                height: 300px;
+            }
+            tr{
+                height: 90px;
+            }
+            td{
+                text-align: center;
+            }
+            tr:nth-child(3) > td:nth-child(2){
+                color: red;
+            }
+            tr:nth-child(3) > td:nth-child(3){
+                background-color: red;
+                color: white; 
+            }
+            tr:nth-child(4) > td:nth-child(3) > a > img{
+                width: 100px;
+                height: 100px; 
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1px">
+            <tr>
+                <th>The Lord of the Rings</th>
+                <th>Matrix</th>
+                <th>The Godfather</th>
+            </tr>
+            <tr>
+                <td><img src="https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_FMjpg_UX1000_.jpg" alt="the lord of rings image" /></td>
+                <td><img src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg" alt="matrix image" /></td>
+                <td><img src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg" alt="god father image" /></td>
+            </tr>
+            <tr>
+                <td>2001</td>
+                <td>1999</td>
+                <td>1972</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.imdb.com/title/tt0120737/" target="_blank">Imdb Link</a></td>
+                <td><a href="https://www.imdb.com/title/tt0133093/" target="_blank">Imdb Link</a></td>
+                <td>
+                    <a href="https://www.imdb.com/title/tt0068646/" target="_blank">
+                        <img src="https://www.logo.wine/a/logo/IMDb/IMDb-Logo.wine.svg" alt="imdb link" />
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
